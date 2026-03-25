@@ -13,3 +13,11 @@ A small Nextflow DSL2 pipeline that runs FastQC on toy FASTQ inputs and aggregat
 nextflow run main.nf
 
 ![MultiQC report](assets/multiqc-screenshot.png)
+
+
+## Outputs
+- `results/fastqc/`
+- `results/multiqc/multiqc_report.html`
+- `results/multiqc/multiqc_report_data/`
+- `results/pipeline-report.html`
+- `results/pipeline-timeline.html`
